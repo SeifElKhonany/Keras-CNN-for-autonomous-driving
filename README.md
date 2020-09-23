@@ -4,18 +4,18 @@ A Convolutional Neural Network, created for my autonomous vehicle graduation pro
 ## How to use
 * Set up a python environment and install Tensorflow.  
 
-`pip install tensorflow-gpu`
+  `pip install tensorflow-gpu`
 * Assign values to these variables suitable to your project.
-```python
-bs = 10   # batch size
-num_epochs = 2
+  ```python
+  bs = 10   # batch size
+  num_epochs = 2
 
-n_training = "Number of training images"
-n_validation = "Number of validation images"
+  n_training = "Number of training images"
+  n_validation = "Number of validation images"
 
-train_path = r'path to training images folder'
-valid_path = r'path to validation images folder'
+  train_path = r'path to training images folder'
+  valid_path = r'path to validation images folder'
 
-input_shape = (376, 672, 3)
-```
+  input_shape = (376, 672, 3)
+  ```
 * Use the saved model to predict steering angles based on images.
